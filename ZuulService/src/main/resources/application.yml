@@ -28,9 +28,9 @@ zuul:
 #    trainingsService:
 #      path: /trainingsService/**
 #      service-id: TRAININGSSERV
-     mentorService:
-      path: /api/***
-      service-id: MENTORSERVICE
+     mentor-On-DemandService:
+       path: /**
+       service-id: MENTOR-ON-DEMANDSERVICE
 #    mentorSkillCalendarService:
 #      path: /skillMentService/**
 #      service-id: MENTORSKILLCALENDARSERVICE
