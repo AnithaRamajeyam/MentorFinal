@@ -1,7 +1,7 @@
 #Name of the application
 spring:
   application:
-    name: mentorService
+    name: mentor-On-DemandService
 
 #Eureka server url for registering
 #This is eureka client
@@ -16,3 +16,5 @@ eureka:
 instance:
   hostname: localhost
 
+server:
+  port: 8089
